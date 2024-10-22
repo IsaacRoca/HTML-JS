@@ -24,6 +24,23 @@
      let imcIsaac = calcularIMC(51, 1.68)
 
      mostra(' O IMC de Isaac é:' + imcIsaac)
+
+     let nome = prompt(`Qual é o seu nome`)
+     let alturaInformado = prompt(`${nome}, Qual é a sua altura? Utilize ponto no lugar de vírgula`)
+     let pesoInformado = prompt(`${nome}, Qual é seu peso?`)
+
+     let imcCalculado = calcularIMC(pesoInformado, alturaInformado)
+
+     mostra(`${nome}, seu IMC é de ${IMC}`)
+
+     if(imcCalculado > 25){
+          mostra(`${nome}, o seu IMC está acima do ideal`)
+     }else if(imcCalculado < 10){
+           mostra(`${nome}, o seu IMC está abaixo do ideal`)
+     }else {
+           mostra(`${nome}, o seu IMC está no ideal`)
+     }
+     
       
 
     </script>
