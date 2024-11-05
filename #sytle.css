@@ -1,10 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Quicksand:wght@300..700&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+}
+
 :root{
-    --laranja: #f75c03ff;
-    --rosa: #d90368ff;
-    --roxo: #820263ff;
-    --preto: #291720ff;
-    --verde: #04a777ff;
+    --fonte-titulo:""Anton SC", sans-serif;"
+    --fonte-texto:""Quicksand", sans-serif;"
+    --cor1: #ffbe0bff;
+    --cor2: #fb5607ff;
+    --cor3: #ff006eff;
+    --cor4: #8338ecff;
+    --cor5: #3a86ffff;
+    --cor6: #f1f1f1;
+    --cor7: #000000;
 
 
+
+
+
+}
+
+
+body{
+      background-color: var(--cor1);
+      font-family: var(--fonte-texto);
+
+}
+
+header, footer{
+       background-color: var(--cor4);
+       padding: 2em;
+       color: var (--cor5);
+       text-align: center;
+       font-family: var(--fonte-titulo);
+       font-size: 1.5em;
+}
+
+footer{
+    position: fixed
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+     text-decoration: nome;
+     color:var(--cor4);
 
 }
